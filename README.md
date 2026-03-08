@@ -19,11 +19,8 @@ This repository contains the **[Data Mining Lab @ Yale](https://github.com/Data-
 Use this code as the **`task3`** directory of the full ArchEHR-QA repository so that paths to data and evaluation resolve correctly.
 
 ```
-your-repo/
-├── task2/
-│   ├── v1.4_Subtask2/v1.4/   # or v1.5: dev/ and test/ archehr-qa.xml + archehr-qa_key.json
-│   └── Evaluation_Task2/evaluation/   # scorers (bleu, rouge, sari, bert)
-└── task3/   # <-- contents of THIS release
+
+└── task3/   # 
     ├── pipeline_subtask3_answer.py
     ├── score_minimal.py
     ├── run_approaches.py
