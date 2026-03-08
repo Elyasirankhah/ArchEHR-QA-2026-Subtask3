@@ -1,0 +1,13 @@
+# ArchEHR-QA 2026 Subtask 3 — Answer Generation
+# Install from repository root: pip install -r task3/requirements.txt
+
+openai>=1.0.0
+python-dotenv>=1.0.0
+lxml>=4.9.0
+numpy>=1.21.0
+torch>=1.13.0
+tqdm>=4.60.0
+
+# Scoring (score_minimal.py) also requires the task2 Evaluation_Task2/evaluation
+# package and its scorers (BLEU, ROUGE, SARI, BERTScore). Ensure that package
+# is installed or on PYTHONPATH when running score_minimal.py.
