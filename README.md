@@ -1,4 +1,4 @@
-# Yale-DM-Lab at ArchEHR-QA 2026 — Subtask 3: Answer Generation
+# [Data Mining Lab @ Yale](https://github.com/Data-Mining-Lab-Yale) at ArchEHR-QA 2026 — Subtask 3: Answer Generation
 
 This repository contains the **Yale-DM-Lab** system for **Subtask 3 (Answer Generation)** of the [ArchEHR-QA 2026](https://github.com/sarveshsoni/ArchEHR-QA) shared task (CL4Health @ LREC-COLING 2026). The task studies patient-authored questions about hospitalization records. Subtask 3 generates an answer of at most 75 words grounded in the provided clinical note, in professional register and without citations in the output. Evaluation uses BLEU, ROUGE, SARI, BERTScore (and optionally AlignScore and MEDCON in the official environment; development experiments in this repo use locally reproducible metrics only).
 
